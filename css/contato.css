@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .header-banner {
+    width: 100%;
+    max-width: 1000px;
+    height: 150px;
+    display: block;
+    margin: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .header-banner {
+      max-width: 100%;
+    }
+  }
+  
+  header {
+    background-color: #84a3916c;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .full-width-divider {
+    width: 100%;
+    margin: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .cart-icon {
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .cart-icon img {
+    width: 35px;
+  }
+  
+  .notification {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-dropdown {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    display: none;
+  }
+  
+  .cart-dropdown.open {
+    display: block;
+  }
+  
+  .cart-dropdown h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cart-dropdown #cart-items {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .cart-dropdown #cart-items div {
+    margin-bottom: 5px;
+  }
+  
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #668071;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #668071;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #668071;
+  }
+  
